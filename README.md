@@ -7,6 +7,8 @@ Calendário onde o usuário pode selecionar datas e atribuir textos a elas, func
 * Calendário com as datas comemorativas nacionais do Brasil
 * Opção de adicionar datas comemorativas regionais de forma prática e rápida em seu calendário
 * Adição de datas comemorativas com nomes e datas escolhidos por ele
-* Acesso offline aos dados que já estão salvos - Disponível apenas na versão mobile
-* Opção de receber notificações no dia do feriado
-* Portabilidade das datas comemorativas e textos personalizados escritos pelo usuário em sua conta, além da opção de exportar e importar datas comemorativas de um arquivo JSON
+* Acesso offline aos dados que já estão salvos - Apenas mobile
+* Sincronização das alterações offline com o banco de dados central depois de obter conexão à internet - Apenas mobile
+* Opção de receber notificações no dia do feriado - Apenas mobile
+* Sincronização das datas comemorativas e textos personalizados escritos pelo usuário em sua conta, permitindo que ele acesse aos dados em qualquer dispositivo
+* Opção de exportar e importar datas comemorativas, títulos e textos personalizados através de um arquivo JSON
