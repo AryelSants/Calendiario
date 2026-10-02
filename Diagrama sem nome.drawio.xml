@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="1KAELEOQq4GhQNMdLuT2">
-    <mxGraphModel dx="939" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
           <mxGeometry height="72.5" width="120" y="27.5" as="geometry" />
         </mxCell>
         <mxCell id="zZcOmLXTG9E_i7d-URkY-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="140" width="120" x="270" y="270" as="geometry" />
+          <mxGeometry height="140" width="120" x="280" y="270" as="geometry" />
         </mxCell>
         <mxCell id="zZcOmLXTG9E_i7d-URkY-10" parent="zZcOmLXTG9E_i7d-URkY-9" style="rounded=0;whiteSpace=wrap;html=1;" value="Reviews" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
@@ -32,17 +32,17 @@
         <mxCell id="zZcOmLXTG9E_i7d-URkY-15" parent="zZcOmLXTG9E_i7d-URkY-16" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;user_id: Number&lt;/div&gt;&lt;div&gt;title: String&lt;/div&gt;&lt;div&gt;description: String&lt;/div&gt;&lt;div&gt;items: Array&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="120" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="zZcOmLXTG9E_i7d-URkY-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;">
+        <mxCell id="zZcOmLXTG9E_i7d-URkY-19" edge="1" parent="1" source="zZcOmLXTG9E_i7d-URkY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="90.03" />
-              <mxPoint x="200" y="90.03" />
+              <mxPoint x="340" y="90.05" />
+              <mxPoint x="200" y="90.05" />
             </Array>
             <mxPoint x="330" y="270" as="sourcePoint" />
             <mxPoint x="200" y="83.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZcOmLXTG9E_i7d-URkY-28" connectable="0" parent="zZcOmLXTG9E_i7d-URkY-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Criam avaliações" vertex="1">
+        <mxCell id="zZcOmLXTG9E_i7d-URkY-28" connectable="0" parent="zZcOmLXTG9E_i7d-URkY-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cria avaliações" vertex="1">
           <mxGeometry relative="1" x="0.0422" y="2" as="geometry">
             <mxPoint x="2" y="57" as="offset" />
           </mxGeometry>
@@ -76,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zZcOmLXTG9E_i7d-URkY-33" connectable="0" parent="1" style="group;labelPosition=right;verticalLabelPosition=bottom;align=left;verticalAlign=middle;textDirection=ltr;" value="" vertex="1">
-          <mxGeometry height="110" width="140" x="480" y="270" as="geometry" />
+          <mxGeometry height="110" width="140" x="270" y="490" as="geometry" />
         </mxCell>
         <mxCell id="zZcOmLXTG9E_i7d-URkY-7" parent="zZcOmLXTG9E_i7d-URkY-33" style="rounded=0;whiteSpace=wrap;html=1;" value="Movies" vertex="1">
           <mxGeometry height="20" width="140" as="geometry" />
@@ -84,7 +84,7 @@
         <mxCell id="zZcOmLXTG9E_i7d-URkY-8" parent="zZcOmLXTG9E_i7d-URkY-33" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div align=&quot;left&quot;&gt;tmdb_id; Number&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;title: String&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;genre: Array&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;release_year: Number&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;poster_url: String&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="140" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="zZcOmLXTG9E_i7d-URkY-34" edge="1" parent="1" source="zZcOmLXTG9E_i7d-URkY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zZcOmLXTG9E_i7d-URkY-8">
+        <mxCell id="zZcOmLXTG9E_i7d-URkY-34" edge="1" parent="1" source="zZcOmLXTG9E_i7d-URkY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zZcOmLXTG9E_i7d-URkY-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zZcOmLXTG9E_i7d-URkY-35" connectable="0" parent="zZcOmLXTG9E_i7d-URkY-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1, *" vertex="1">
@@ -95,6 +95,34 @@
         <mxCell id="zZcOmLXTG9E_i7d-URkY-36" connectable="0" parent="zZcOmLXTG9E_i7d-URkY-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1,1" vertex="1">
           <mxGeometry relative="1" x="0.8286" y="1" as="geometry">
             <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj0-r55ZQ0rn9aZ6Y_CL-2" connectable="0" parent="zZcOmLXTG9E_i7d-URkY-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Filmes possuem avaliações" vertex="1">
+          <mxGeometry relative="1" x="0.1233" y="-1" as="geometry">
+            <mxPoint x="11" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj0-r55ZQ0rn9aZ6Y_CL-1" edge="1" parent="1" source="zZcOmLXTG9E_i7d-URkY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zZcOmLXTG9E_i7d-URkY-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="555" />
+            </Array>
+            <mxPoint x="140" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj0-r55ZQ0rn9aZ6Y_CL-3" connectable="0" parent="cj0-r55ZQ0rn9aZ6Y_CL-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Listas possuem filmes" vertex="1">
+          <mxGeometry relative="1" x="0.0348" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj0-r55ZQ0rn9aZ6Y_CL-4" connectable="0" parent="cj0-r55ZQ0rn9aZ6Y_CL-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1,1" vertex="1">
+          <mxGeometry relative="1" x="-0.9561" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj0-r55ZQ0rn9aZ6Y_CL-5" connectable="0" parent="cj0-r55ZQ0rn9aZ6Y_CL-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1,*" vertex="1">
+          <mxGeometry relative="1" x="0.8161" y="-2" as="geometry">
+            <mxPoint x="3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
